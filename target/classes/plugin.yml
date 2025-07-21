@@ -1,0 +1,13 @@
+name: PrecollivoodRoleLPAddon
+main: ru.precollivood.PrecollivoodRoleLPAddon
+version: 1.0
+api-version: 1.20
+commands:
+  ds-role:
+    description: Привязка Minecraft-группы к Discord-роле
+    usage: /ds-role add <название> <ID_роли_в_Discord>
+    permission: dsync.admin
+    permission-message: §cНет прав для использования этой команды.
+depend:
+  - LuckPerms
+  - DiscordSRV 
